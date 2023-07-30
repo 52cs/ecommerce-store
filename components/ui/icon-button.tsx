@@ -20,7 +20,7 @@ const IconButton: React.FC<IconButtonProps> = ({
         className
       )}
     >
-
+      {icon}
     </button>
   )
 }
