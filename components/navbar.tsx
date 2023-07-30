@@ -6,7 +6,7 @@ import Link from "next/link"
 
 const Navbar = async () => {
   const categories = await getCategories();
-  console.log({categories})
+
   return (
     <div className="border-b">
       <Container>
